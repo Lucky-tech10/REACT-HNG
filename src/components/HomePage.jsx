@@ -40,7 +40,7 @@ const HomePage = () => {
           </div>
           <div className="flex-shrink-0">
             <img
-              className="h-80 w-full border-8 border-orange-700 rounded-full"
+              className="h-80 w-80 border-8 border-orange-700 rounded-full"
               src={profile}
               alt="profile"
             />

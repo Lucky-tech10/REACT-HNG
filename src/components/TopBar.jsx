@@ -3,7 +3,7 @@ import { DiAndroid, DiApple } from "react-icons/di";
 const TopBar = () => {
   return (
     <div className="bg-white border-b border-gray-200 p-1 flex justify-between items-center">
-      <div className="flex items-center dropdowns xl:ml-24 lg:ml-8 md:ml-2 ml-3">
+      <div className="flex items-center dropdowns xl:ml-24 lg:ml-8 md:ml-2">
         <div className="dropdown px-5">
           <select className="mt-2 bg-white">
             <option>English US</option>
