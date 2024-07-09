@@ -1,0 +1,26 @@
+[
+  {
+    "id": 4,
+    "name": "Victorinox Swiss Army",
+    "description": "Brown-Silver Steel, Green hands",
+    "price": "$23,400.00",
+    "bagImage": "../public/images/bag-1.png",
+    "quantity": 10
+  },
+  {
+    "id": 5,
+    "name": "Victorinox Swiss Army",
+    "description": "Brown-Silver Steel, Green hands",
+    "price": "$23,400.00",
+    "bagImage": "../public/images/bag-2.png",
+    "quantity": 15
+  },
+  {
+    "id": 6,
+    "name": "Victorinox Swiss Army",
+    "description": "Brown-Silver Steel, Green hands",
+    "price": "$23,400.00",
+    "bagImage": "../public/images/bag-3.png",
+    "quantity": 20
+  }
+]

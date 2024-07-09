@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inner {
+  background-color: #c75c00;
+}
+
+.inner:hover {
+  background-color: #b95802;
+}
+
+.foot {
+  background-color: #b5b2a6;
+}
