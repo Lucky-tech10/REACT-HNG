@@ -29,7 +29,7 @@ const Header = () => {
                 )}
               </button>
             </div>
-            <div className="flex-shrink-0 xl:ml-14 lg:ml-8 md:ml-2 ml-5 ">
+            <div className="flex-shrink-0 xl:ml-14 lg:ml-8 md:ml-2 sm:ml-3 ml-2 ">
               <img className="h-10 w-auto" src={logo} alt="Logo" />
             </div>
           </div>
@@ -76,7 +76,7 @@ const Header = () => {
             </form>
           </div>
           <div className="">
-            <div className="flex justify-between xl:space-x-8 space-x-6 xl:mr-10 lg:mr-8 items-center">
+            <div className="flex justify-between xl:space-x-8 sm:space-x-6 space-x-4 xl:mr-10 lg:mr-8 items-center">
               <Link to="/carts">
                 <FaShoppingCart className="cursor-pointer text-2xl" />
               </Link>
