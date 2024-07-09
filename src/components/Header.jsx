@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-4 md:h-28 xl:h-28 lg:h-28 h-28">
+      <div className="max-w-screen-2xl mx-auto py-1 px-4 sm:px-6 lg:px-4 md:h-28 xl:h-28 lg:h-28 h-32">
         <div className="flex justify-between mt-5 items-center ">
           <div className="flex">
             <div className=" flex md:hidden">
