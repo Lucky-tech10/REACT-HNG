@@ -20,7 +20,7 @@ const Header = () => {
             <div className=" flex md:hidden">
               <button
                 onClick={toggleMenu}
-                className="text-black ml-2 hover:text-gray-600 focus:outline-none focus:text-gray-600"
+                className="text-black ml-1 hover:text-gray-600 focus:outline-none focus:text-gray-600"
               >
                 {isOpen ? (
                   <FaTimes className="h-6 w-6" />
