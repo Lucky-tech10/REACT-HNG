@@ -1,10 +1,15 @@
 // import React, { useState, useEffect } from "react";
 import { FaShoppingCart } from "react-icons/fa";
-import products from "../products.json";
-import bags from "../bags.json";
+// import products from "../products.json";
+// import bags from "../bags.json";
 import { MdCallMade } from "react-icons/md";
 import profile from "../assets/images/home-image.png";
-import "../index.css";
+import watch1 from "../assets/images/watch-1.png";
+import watch2 from "../assets/images/watch-2.png";
+import watch3 from "../assets/images/watch-3.png";
+import bag1 from "../assets/images/bag-1.png";
+import bag2 from "../assets/images/bag-2.png";
+import bag3 from "../assets/images/bag-3.png";
 
 const HomePage = () => {
   // const [productts, setProductts] = useState([]);
@@ -56,27 +61,51 @@ const HomePage = () => {
           </div>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 lg:gap-14 xl:gap-14">
-          {products &&
-            products.map((product) => (
-              <div
-                key={product.id}
-                className="bg-white p-4 rounded-lg shadow-md"
-              >
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full sm:h-60 md:h-60 lg:h-60 xl:h-96 object-cover rounded-t-lg"
-                />
-                <div className="mt-4">
-                  <h2 className="text-lg font-bold">{product.name}</h2>
-                  <p className="text-gray-600">{product.description}</p>
-                  <p className="text-xl font-bold mt-2">{product.price} USD</p>
-                  <button className="mt-4 inner text-white px-4 py-2 rounded-full flex items-center justify-center w-full">
-                    <FaShoppingCart className="mr-2" /> Add to Cart
-                  </button>
-                </div>
-              </div>
-            ))}
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <img
+              src={watch1}
+              alt="Victorinox Swiss Army"
+              className="w-full sm:h-60 md:h-60 lg:h-60 xl:h-96 object-cover rounded-t-lg"
+            />
+            <div className="mt-4">
+              <h2 className="text-lg font-bold">Victorinox Swiss Army</h2>
+              <p className="text-gray-600">Brown-Silver Steel, Green hands</p>
+              <p className="text-xl font-bold mt-2">$23,400.00 USD</p>
+              <button className="mt-4 inner text-white px-4 py-2 rounded-full flex items-center justify-center w-full">
+                <FaShoppingCart className="mr-2" /> Add to Cart
+              </button>
+            </div>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <img
+              src={watch2}
+              alt="Victorinox Swiss Army"
+              className="w-full sm:h-60 md:h-60 lg:h-60 xl:h-96 object-cover rounded-t-lg"
+            />
+            <div className="mt-4">
+              <h2 className="text-lg font-bold">Victorinox Swiss Army</h2>
+              <p className="text-gray-600">Brown-Silver Steel, Green hands</p>
+              <p className="text-xl font-bold mt-2">$23,400.00 USD</p>
+              <button className="mt-4 inner text-white px-4 py-2 rounded-full flex items-center justify-center w-full">
+                <FaShoppingCart className="mr-2" /> Add to Cart
+              </button>
+            </div>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <img
+              src={watch3}
+              alt="Victorinox Swiss Army"
+              className="w-full sm:h-60 md:h-60 lg:h-60 xl:h-96 object-cover rounded-t-lg"
+            />
+            <div className="mt-4">
+              <h2 className="text-lg font-bold">Victorinox Swiss Army</h2>
+              <p className="text-gray-600">Brown-Silver Steel, Green hands</p>
+              <p className="text-xl font-bold mt-2">$23,400.00 USD</p>
+              <button className="mt-4 inner text-white px-4 py-2 rounded-full flex items-center justify-center w-full">
+                <FaShoppingCart className="mr-2" /> Add to Cart
+              </button>
+            </div>
+          </div>
         </div>
       </div>
       <div className="mt-8">
@@ -89,25 +118,52 @@ const HomePage = () => {
             <MdCallMade className="ml-2" />
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
-          {bags &&
-            bags.map((bag) => (
-              <div key={bag.id} className="bg-white p-4 rounded-lg shadow-md">
-                <img
-                  src={bag.bagImage}
-                  alt={bag.name}
-                  className="w-full sm:h-60 md:h-60 lg:h-64 xl:h-96 object-cover rounded-t-lg"
-                />
-                <div className="mt-4">
-                  <h2 className="text-lg font-bold">{bag.name}</h2>
-                  <p className="text-gray-600">{bag.description}</p>
-                  <p className="text-xl font-bold mt-2">{bag.price} USD</p>
-                  <button className="mt-4 inner text-white px-4 py-2 rounded-full flex items-center justify-center w-full">
-                    <FaShoppingCart className="mr-2" /> Add to Cart
-                  </button>
-                </div>
-              </div>
-            ))}
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <img
+              src={bag1}
+              alt="Victorinox Swiss Army"
+              className="w-full sm:h-60 md:h-60 lg:h-60 xl:h-96 object-cover rounded-t-lg"
+            />
+            <div className="mt-4">
+              <h2 className="text-lg font-bold">Victorinox Swiss Army</h2>
+              <p className="text-gray-600">Brown-Silver Steel, Green hands</p>
+              <p className="text-xl font-bold mt-2">$23,400.00 USD</p>
+              <button className="mt-4 inner text-white px-4 py-2 rounded-full flex items-center justify-center w-full">
+                <FaShoppingCart className="mr-2" /> Add to Cart
+              </button>
+            </div>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <img
+              src={bag2}
+              alt="Victorinox Swiss Army"
+              className="w-full sm:h-60 md:h-60 lg:h-60 xl:h-96 object-cover rounded-t-lg"
+            />
+            <div className="mt-4">
+              <h2 className="text-lg font-bold">Victorinox Swiss Army</h2>
+              <p className="text-gray-600">Brown-Silver Steel, Green hands</p>
+              <p className="text-xl font-bold mt-2">$23,400.00 USD</p>
+              <button className="mt-4 inner text-white px-4 py-2 rounded-full flex items-center justify-center w-full">
+                <FaShoppingCart className="mr-2" /> Add to Cart
+              </button>
+            </div>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <img
+              src={bag3}
+              alt="Victorinox Swiss Army"
+              className="w-full sm:h-60 md:h-60 lg:h-60 xl:h-96 object-cover rounded-t-lg"
+            />
+            <div className="mt-4">
+              <h2 className="text-lg font-bold">Victorinox Swiss Army</h2>
+              <p className="text-gray-600">Brown-Silver Steel, Green hands</p>
+              <p className="text-xl font-bold mt-2">$23,400.00 USD</p>
+              <button className="mt-4 inner text-white px-4 py-2 rounded-full flex items-center justify-center w-full">
+                <FaShoppingCart className="mr-2" /> Add to Cart
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
