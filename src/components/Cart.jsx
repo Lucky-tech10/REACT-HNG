@@ -9,7 +9,7 @@ const Cart = () => {
     <>
       <h1 className="text-4xl font-bold mb-2 mx-10 sm:mx-16 mt-8">My Cart</h1>
       <hr className="border-1 border-black" />
-      <div className="container sm:mx-auto p-8">
+      <div className="container mx-auto sm:mx-auto p-8">
         <div className="grid grid-cols-1 lg:grid-cols-65/35 gap-10">
           <div className="mr-4">
             <div className="flex mb-16">
@@ -26,7 +26,9 @@ const Cart = () => {
                   </p>
                 </div>
                 <div className="flex items-center justify-between mt-4">
-                  <p className="text-2xl font-medium">$ 23,400.00 USD</p>
+                  <p className="text-base md:text-xl font-medium">
+                    $ 23,400.00 USD
+                  </p>
                   <div className="flex items-center space-x-3 md:space-x-5">
                     <button className="text-orange-600">
                       <FaTrash />
@@ -56,7 +58,9 @@ const Cart = () => {
                   </p>
                 </div>
                 <div className="flex items-center justify-between mt-4">
-                  <p className="text-2xl font-medium">$ 23,400.00 USD</p>
+                  <p className="text-base md:text-xl font-medium">
+                    $ 23,400.00 USD
+                  </p>
                   <div className="flex items-center space-x-3 md:space-x-5">
                     <button className="text-orange-600">
                       <FaTrash />

@@ -68,7 +68,7 @@ const Checkout = () => {
           <div className="mb-10">
             <h2 className="text-2xl font-bold mb-8">Delivery Address</h2>
             <div className="bg-white p-6 border border-black mb-6">
-              <div className="flex">
+              <div className="flex items-center">
                 <input type="radio" name="deliveryMethod" className="mr-2" />
                 <div className="flex justify-between space-x-20 sm:space-x-28 md:space-x-72">
                   <div>
@@ -92,7 +92,7 @@ const Checkout = () => {
             </div>
             <div className="bg-white p-6 border border-dashed border-black">
               <div className="flex items-center">
-                <CiCirclePlus className="mr-2" />
+                <CiCirclePlus className="mr-2 text-lg" />
                 <div>
                   <p className="sm:text-base text-sm">New Address</p>
                   <p className="text-gray-500 sm:text-base text-xs">
