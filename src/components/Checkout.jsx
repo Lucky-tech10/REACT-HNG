@@ -9,10 +9,10 @@ const Checkout = () => {
   return (
     <div className="container mx-auto p-4">
       <header className="mb-4 flex items-center justify-between mx-auto">
-        <h1 className="text-3xl sm:text-3xl md:text-4xl font-bold inline-block">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold ">
           Checkout
         </h1>
-        <p className="text-gray-500 text-base sm:text-1xl md:text-2xl inline-block">
+        <p className="text-gray-500 text-sm sm:text-1xl md:text-2xl ">
           Delivery and Payment method
         </p>
       </header>
@@ -21,30 +21,30 @@ const Checkout = () => {
         <div className="lg:w-1/3 p-4">
           <h2 className="text-xl font-semi-bold mb-5">Price details</h2>
           <div className="bg-white p-4 shadow-md border">
-            <div className="mb-2 flex items-center">
+            <div className="mb-2 flex border-b py-2 border-1 items-center">
               <img src={watch1} alt="Product 1" className="w-12 h-12 mr-4" />
               <div>
                 <p>Victorinox Swiss Army</p>
                 <p className="text-gray-500">$ 23,400.00 USD</p>
               </div>
             </div>
-            <hr className="p-1" />
-            <div className="mb-2 flex items-center">
+            {/* <hr className="p-1" /> */}
+            <div className="mb-2 border-b py-2 border-1 flex items-center">
               <img src={watch2} alt="Product 2" className="w-12 h-12 mr-4" />
               <div>
                 <p>Victorinox Swiss Army</p>
                 <p className="text-gray-500">$ 23,400.00 USD</p>
               </div>
             </div>
-            <hr className="p-1" />
-            <div className="mb-2 flex items-center">
+            {/* <hr className="p-1" /> */}
+            <div className="mb-2 border-b py-2 border-1 flex items-center">
               <img src={watch3} alt="Product 3" className="w-12 h-12 mr-4" />
               <div>
                 <p>Victorinox Swiss Army</p>
                 <p className="text-gray-500">$ 23,400.00 USD</p>
               </div>
             </div>
-            <div className="border-t pt-2">
+            <div className=" pt-2">
               <div className="flex py-1 justify-between">
                 <p>Total</p>
                 <p className="text-gray-500">$ 23,400.00 USD</p>

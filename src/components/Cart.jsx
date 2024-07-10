@@ -9,27 +9,29 @@ const Cart = () => {
     <>
       <h1 className="text-4xl font-bold mb-2 mx-10 sm:mx-16 mt-8">My Cart</h1>
       <hr className="border-1 border-black" />
-      <div className="container mx-auto sm:mx-auto p-8">
+      <div className="container mx-auto p-8">
         <div className="grid grid-cols-1 lg:grid-cols-65/35 gap-10">
-          <div className="mr-4">
-            <div className="flex mb-16">
+          <div className="mr-4 mb-10">
+            <div className="flex border p-3 border-1">
               <img
                 src={watch1}
                 alt="Victorinox Swiss Army"
                 className="w-48 h-48 object-cover rounded"
               />
-              <div className="ml-4 flex flex-col justify-between w-full">
+              <div className="ml-3 sm:ml-4 flex flex-col justify-between w-full">
                 <div>
-                  <h2 className="text-xl font-bold">Victorinox Swiss Army</h2>
-                  <p className="text-gray-600">
+                  <h2 className="text-lg sm:text-xl font-bold">
+                    Victorinox Swiss Army
+                  </h2>
+                  <p className="text-gray-600 text-sm sm:text-base">
                     Brown-Silver Steel, Green hands
                   </p>
                 </div>
                 <div className="flex items-center justify-between mt-4">
-                  <p className="text-base md:text-xl font-medium">
+                  <p className="text-sm sm:text-lg font-medium">
                     $ 23,400.00 USD
                   </p>
-                  <div className="flex items-center space-x-3 md:space-x-5">
+                  <div className="flex items-center space-x-2 md:space-x-5">
                     <button className="text-orange-600">
                       <FaTrash />
                     </button>
@@ -44,24 +46,26 @@ const Cart = () => {
                 </div>
               </div>
             </div>
-            <div className="flex mb-16">
+            <div className="flex border p-3 border-1">
               <img
                 src={watch2}
                 alt="Victorinox Swiss Army"
                 className="w-48 h-48 object-cover rounded"
               />
-              <div className="ml-4 flex flex-col justify-between w-full">
+              <div className="ml-3 sm:ml-4 flex flex-col justify-between w-full">
                 <div>
-                  <h2 className="text-xl font-bold">Victorinox Swiss Army</h2>
-                  <p className="text-gray-600">
+                  <h2 className="text-lg sm:text-xl font-bold">
+                    Victorinox Swiss Army
+                  </h2>
+                  <p className="text-gray-600 text-sm sm:text-base">
                     Brown-Silver Steel, Green hands
                   </p>
                 </div>
                 <div className="flex items-center justify-between mt-4">
-                  <p className="text-base md:text-xl font-medium">
+                  <p className="text-sm sm:text-lg font-medium">
                     $ 23,400.00 USD
                   </p>
-                  <div className="flex items-center space-x-3 md:space-x-5">
+                  <div className="flex items-center space-x-2 md:space-x-5">
                     <button className="text-orange-600">
                       <FaTrash />
                     </button>
@@ -82,8 +86,8 @@ const Cart = () => {
               <h2 className="text-xl text-center font-bold mb-6">
                 Order Summary
               </h2>
-              <ul className="mb-10 text-xs">
-                <li className="flex justify-between mb-4">
+              <ul className="mb-10 w-full text-xs">
+                <li className="flex justify-between border-t border-b py-2 border-1">
                   <span>
                     <h1 className="font-medium">x2 Victorinox Swiss Army</h1>
                     <p>Brown-Silver Steel, Green hands</p>
@@ -93,7 +97,7 @@ const Cart = () => {
                     <sup>USD</sup>
                   </p>
                 </li>
-                <li className="flex justify-between mb-4">
+                <li className="flex justify-between border-t border-b py-2 border-1">
                   <span>
                     <h1 className="font-medium">x2 Victorinox Swiss Army</h1>
                     <p>Brown-Silver Steel, Green hands</p>
@@ -103,7 +107,7 @@ const Cart = () => {
                     <sup>USD</sup>
                   </p>
                 </li>
-                <li className="flex justify-between mb-4">
+                <li className="flex justify-between border-t border-b py-2 border-1">
                   <span>
                     <h1 className="font-medium">x2 Victorinox Swiss Army</h1>
                     <p>Brown-Silver Steel, Green hands</p>
@@ -113,7 +117,7 @@ const Cart = () => {
                     <sup>USD</sup>
                   </p>
                 </li>
-                <li className="flex justify-between mb-4">
+                <li className="flex justify-between border-t border-b py-2 border-1">
                   <span>
                     <h1 className="font-medium">x2 Victorinox Swiss Army</h1>
                     <p>Brown-Silver Steel, Green hands</p>
