@@ -11,7 +11,7 @@ const Cart = () => {
       <hr className="border-1 border-black" />
       <div className="container mx-auto p-8">
         <div className="grid grid-cols-1 lg:grid-cols-65/35 gap-10">
-          <div className="mr-4 mb-10">
+          <div className="mr-4 w-full mb-10">
             <div className="flex border p-3 border-1">
               <img
                 src={watch1}
