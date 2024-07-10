@@ -20,18 +20,18 @@ const Cart = () => {
               />
               <div className="ml-3 sm:ml-4 flex flex-col justify-between w-full">
                 <div>
-                  <h2 className="text-lg sm:text-xl font-bold">
+                  <h2 className="text-base sm:text-xl font-bold">
                     Victorinox Swiss Army
                   </h2>
-                  <p className="text-gray-600 text-sm sm:text-base">
+                  <p className="text-gray-600 text-xs sm:text-base">
                     Brown-Silver Steel, Green hands
                   </p>
                 </div>
                 <div className="flex items-center justify-between mt-4">
-                  <p className="text-sm sm:text-lg font-medium">
+                  <p className="text-xs sm:text-lg font-medium">
                     $ 23,400.00 USD
                   </p>
-                  <div className="flex items-center space-x-2 md:space-x-5">
+                  <div className="flex items-center space-x-1 sm:space-x-4 md:space-x-5">
                     <button className="text-orange-600">
                       <FaTrash />
                     </button>
@@ -54,18 +54,18 @@ const Cart = () => {
               />
               <div className="ml-3 sm:ml-4 flex flex-col justify-between w-full">
                 <div>
-                  <h2 className="text-lg sm:text-xl font-bold">
+                  <h2 className="text-base sm:text-xl font-bold">
                     Victorinox Swiss Army
                   </h2>
-                  <p className="text-gray-600 text-sm sm:text-base">
+                  <p className="text-gray-600 text-xs sm:text-base">
                     Brown-Silver Steel, Green hands
                   </p>
                 </div>
                 <div className="flex items-center justify-between mt-4">
-                  <p className="text-sm sm:text-lg font-medium">
+                  <p className="text-xs sm:text-lg font-medium">
                     $ 23,400.00 USD
                   </p>
-                  <div className="flex items-center space-x-2 md:space-x-5">
+                  <div className="flex items-center space-x-1 sm:space-x-4 md:space-x-5">
                     <button className="text-orange-600">
                       <FaTrash />
                     </button>
