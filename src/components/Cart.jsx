@@ -12,7 +12,7 @@ const Cart = () => {
       <div className="container mx-auto p-8">
         <div className="grid grid-cols-1 lg:grid-cols-65/35 gap-10">
           <div className="mr-4 w-full mb-10">
-            <div className="flex border p-3 border-1">
+            <div className="flex border sm:p-3 px-1 py-3 border-1">
               <img
                 src={watch1}
                 alt="Victorinox Swiss Army"
@@ -46,7 +46,7 @@ const Cart = () => {
                 </div>
               </div>
             </div>
-            <div className="flex border p-3 border-1">
+            <div className="flex border px-1 py-3 sm:p-3 border-1">
               <img
                 src={watch2}
                 alt="Victorinox Swiss Army"

@@ -28,7 +28,7 @@ const Checkout = () => {
                 <p className="text-gray-500">$ 23,400.00 USD</p>
               </div>
             </div>
-            {/* <hr className="p-1" /> */}
+
             <div className="mb-2 border-b py-2 border-1 flex items-center">
               <img src={watch2} alt="Product 2" className="w-12 h-12 mr-4" />
               <div>
@@ -36,7 +36,7 @@ const Checkout = () => {
                 <p className="text-gray-500">$ 23,400.00 USD</p>
               </div>
             </div>
-            {/* <hr className="p-1" /> */}
+
             <div className="mb-2 border-b py-2 border-1 flex items-center">
               <img src={watch3} alt="Product 3" className="w-12 h-12 mr-4" />
               <div>
