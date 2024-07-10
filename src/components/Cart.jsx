@@ -16,7 +16,7 @@ const Cart = () => {
               <img
                 src={watch1}
                 alt="Victorinox Swiss Army"
-                className="w-48 h-48 object-cover rounded"
+                className="w-40 h-40 object-cover rounded"
               />
               <div className="ml-3 sm:ml-4 flex flex-col justify-between w-full">
                 <div>
@@ -50,7 +50,7 @@ const Cart = () => {
               <img
                 src={watch2}
                 alt="Victorinox Swiss Army"
-                className="w-48 h-48 object-cover rounded"
+                className="w-40 h-40 object-cover rounded"
               />
               <div className="ml-3 sm:ml-4 flex flex-col justify-between w-full">
                 <div>
