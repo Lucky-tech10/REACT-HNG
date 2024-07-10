@@ -1,19 +1,26 @@
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import TopBar from "./components/TopBar";
-import Homepage from "./components/HomePage";
-import ScrollToTopButton from "./components/ScrollToTopButton";
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import MainLayout from "./layouts/MainLayout";
+import CheckoutPage from "./pages/CheckoutPage";
+import CartPage from "./pages/CartPage";
 
-function App() {
-  return (
-    <>
-      <TopBar />
-      <Header />
-      <Homepage />
-      <Footer />
-      <ScrollToTopButton />
-    </>
-  );
-}
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<MainLayout />}>
+      <Route index element={<HomePage />} />
+      <Route path="/carts" element={<CartPage />} />
+      <Route path="/checkout" element={<CheckoutPage />} />
+    </Route>
+  )
+);
+
+const App = () => {
+  return <RouterProvider router={router} />;
+};
 
 export default App;

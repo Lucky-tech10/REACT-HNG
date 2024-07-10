@@ -11,7 +11,7 @@ import bag1 from "../assets/images/bag-1.png";
 import bag2 from "../assets/images/bag-2.png";
 import bag3 from "../assets/images/bag-3.png";
 
-const HomePage = () => {
+const HeroPage = () => {
   // const [productts, setProductts] = useState([]);
 
   // useEffect(() => {
@@ -170,4 +170,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default HeroPage;

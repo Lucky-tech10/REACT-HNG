@@ -99,10 +99,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-5 md:mt-8 xl:mt-8 lg:mt-8">
-          <strong>
-            <hr />
-          </strong>
-          <hr />
+          <hr className="border-2" />
         </div>
       </div>
     </footer>
