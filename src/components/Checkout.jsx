@@ -132,7 +132,7 @@ const Checkout = () => {
         </div>
       </div>
       <div className="mt-4">
-        <button className="w-full inner text-white py-2 ">Pay</button>
+        <button className="w-full inner text-white py-2 ">PAY</button>
       </div>
     </div>
   );
